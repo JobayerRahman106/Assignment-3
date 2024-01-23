@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/339d0e89ba.js" crossorigin="anonymous"></script>
+
     <!-- Tailwind CSS and daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -92,40 +95,44 @@
           </div>
 
     </header>
+
     <main class="container mx-auto">
       <!-- Professional Hockeys Club -->
       <section class="mt-20">
         <div>
-          <div class="py-5 text-center">
+          <div class="mb-16 text-center">
             <h2 class="text-common-color text-4xl font-extrabold text-[#13131863
             ] pb-6">Professional Hockeys Club</h2>
             <p class="leading-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
           </div>
 
-          <div class="flex justify-between items-center">
+          <div class="flex justify-between  content-center bg-yellow-500 p-5">
             <!-- progreess-1  -->
             <div class="">
               <div class="radial-progress bg-white text-[#ff4240] " style="--value:87;" role="progressbar">87%</div>
-              <h4 class="text-common-color text-xl font-semibold">Prayer Facility</h4>
-              <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+              <div>
+                <h4 class="text-common-color text-xl font-semibold">Prayer Facility</h4>
+                <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+              </div>
+
             </div>
 
             <!-- progreess-2  -->
-            <div>
+            <div class="">
               <div class="radial-progress bg-white text-[#49d293] " style="--value:95;" role="progressbar">95%</div>
               <h4 class="text-common-color text-xl font-semibold">Prayer Facility</h4>
               <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
 
             <!-- progreess-3  -->
-            <div>
+            <div class="">
               <div class="radial-progress bg-white text-[#ffb546] " style="--value:90;" role="progressbar">90%</div>
               <h4 class="text-common-color text-xl font-semibold">Prayer Facility</h4>
               <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
 
             <!-- progreess-4  -->
-            <div>
+            <div class="">
               <div class="radial-progress bg-white text-[#4c8df1] " style="--value:80;" role="progressbar">80%</div>
               <h4 class="text-common-color text-xl font-semibold">Prayer Facility</h4>
               <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -145,30 +152,43 @@
             </div>
 
             <div>
-              <div class="grid grid-cols-2">
-                  <div>
-                  <img src="Images/2.png" alt="">
-                  <h4>Junior Program</h4>
-                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <button class="btn btn-primary">Register Now!</button>
+              <div class="flex justify-center items-center gap-5 my-10">
+                  <div class="relative">
+                  <div><img src="Images/2.png" alt=""></div>
+
+                  <div class="absolute top-20 left-5">
+                    <h4 class="text-xl font-extrabold text-white">Junior Program</h4>
+                    <p class="text-base font-medium leading-7 text-white py-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> 
+                      enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+                      <button class="btn btn-error text-xl font-bold ">Register Now!</button>
+                    </div>
                   </div>
-                  <div">
-                  <img src="Images/3.png" alt="">
-                                
-                    <h4>Junior Program</h4>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                      enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                      <button class="btn btn-primary">Register Now!</button>
+
+
+
+                  <div class="relative">
+                  <div><img src="Images/3.png" alt=""> </div>
+                  <div class="absolute top-20 left-5">
+                    <h4 class="text-xl font-extrabold text-white">Junior Program</h4>
+                    <p class="text-base font-medium leading-7 text-white py-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                      enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+                      <button class="btn btn-error text-xl font-bold ">Register Now!</button>
+                  </div>            
+                    
                   </div>
               </div>
           
-              <div class="grid">
-            <img src="Images/4.png" alt="">
-            <h4>Junior Program</h4>
-            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-              <button class="btn btn-primary">Register Now!</button>
+            <div class="relative flex justify-center">
+            <div class="">
+              <img src="Images/4.png" alt="">
+            </div>
+            <div class="absolute bottom-10 left-56">
+              <h4 class="text-xl font-extrabold text-white">Junior Program</h4>
+              <p class="text-base font-medium leading-7 text-white py-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn btn-error text-xl font-bold">Register Now!</button>
+            </div>
+
               </div>
             </div>
         </div>
@@ -273,17 +293,135 @@
       </section>
 
       <!-- Get In Touch -->
-      <section class="mt-20">
+      <section class="my-20">
         <div>
-          <div  class="py-5 text-center">
+          <div  class="py-5 text-center mb-14">
             <h2 class="text-common-color text-4xl font-extrabold text-[#13131863
             ] pb-6">Get In Touch</h2>
             <p class="leading-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
           </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="flex  flex-col justify-center">
+
+              <div class="bg-[#BCED6D1A] p-5 rounded-2xl">
+            <div class="bg-slate-300 w-16 h-16 rounded-lg flex items-center justify-center">
+              <img class="h-6" src="Images/Group 1171275317.png" alt="">
+            </div>
+            <div>
+              <h6>Phone:</h6>
+              <p>01707607518</p>
+            </div>
+          </div>            
+            
+            <div class=" bg-[#FDDD5F1A] p-5 rounded-2xl my-2">
+              <div class="bg-slate-300 w-16 h-16 rounded-lg flex items-center justify-center mt-6">
+                <img class="h-6" src="Images/Group 1171275318.png" alt="">
+              </div>
+              <div>
+                <h6>Email :</h6>
+                <p>jobayer@gmail.com</p>
+              </div>
+            </div>
+
+            <div class=" bg-[#BCED6D1A] p-5 rounded-2xl">
+              <div class="bg-slate-300 w-16 h-16 rounded-lg flex items-center justify-center">
+                <img class="h-6" src="Images/Group 1171275321.png" alt="">
+              </div>
+              <div>
+                <h6> Location:</h6>
+                <p>Badda,Dhaka</p>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+
+            <div class="lg:col-span-2">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                <div>
+                  <label for="">Your Name</label>
+                  <input type="text" placeholder="Your Name" class="mt-5 input input-bordered w-full" />
+                </div>
+                <!--  -->
+                <div>
+                  <label for="">Your Email</label>              
+                  <input type="text" placeholder="Your Email" class="mt-5 input input-bordered w-full" />
+                </div>
+                <!--  -->                
+                <div>
+                  <label for="">Your Email</label>              
+                  <input type="text" placeholder="Your Email" class="mt-5 input input-bordered w-full" />
+                </div>
+                <!--  -->                
+                <div>
+                  <label for="">Your Email</label>              
+                  <input type="text" placeholder="Your Email" class="mt-5 input input-bordered w-full" />
+                </div>
+                <!--  -->
+              </div>
+              <div  class="mt-4">
+                <label for="">Message</label>
+                <textarea class="w-full mt-2 textarea textarea-bordered" placeholder="Write your message" rows="5"></textarea>
+              </div>
+              <button class="btn bg-red-400 mt-3 text-white w-full">Send Message</button>
+
+            </div>
+          </div>
+
         </div>
       </section>
 
+      <!-- Social Media -->
+      <section class="mt-20 bg-[#13131808] p-10 text-center">
+        <h3 class="text-[#131318] font-extrabold text-2xl">Social Media</h3>
+        <ul class="inline-flex gap-5 pt-5">
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+      </section>
+
     </main>
-    <footer></footer>
+
+    <section class="bg-[#131318] p-10 mt-20">
+      <footer class="footer  container mx-auto text-white">
+        <nav>
+          <header class="footer-title">Get In Touch</header> 
+          <p class="text-basefont-medium leading-7 pb-5">
+            Dit amet consectetur. Condimentum <br>  adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. 
+          </p>
+          <a class="link link-hover"><i class="fa-sharp fa-solid fa-envelope pr-3"></i>hockeys@support.com</a>
+          <a class="link link-hover"><i class="fa-solid fa-phone pr-3"></i>hockeys@support.com</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News & Article</a>
+          <a class="link link-hover">Legal Notice</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Support</header> 
+          <a class="link link-hover">Help Center</a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Ticket Support</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>     
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Group Lesson</a>
+          <a class="link link-hover">Private Lesson</a>
+          <a class="link link-hover">Hockeys for kids</a>
+          <a class="link link-hover">Hockeys for Adul</a>
+        </nav>
+    </footer>
+    </section>
 </body>
 </html>
