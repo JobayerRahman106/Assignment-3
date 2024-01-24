@@ -41,14 +41,16 @@
     </style>
 
 </head>
-<body class="font-manrope">
+<body class="font-manrop">
     <header class="container mx-auto">
         <!-- nav area  -->
+        
         <div class="navbar flex justify-between py-14">
+          <div><i class="fa-solid fa-bars lg:hidden"></i></div>
             <div class="">
               <a class="text-3xl font-extrabold text-common-color ">Hockey’s</a>
             </div>
-            <div class="flex-none">
+            <div class="flex-none hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-base font-normal hover:text-bg-color text-[#424247]">
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
@@ -59,12 +61,12 @@
             </div>
 
             <div>
-                <i class="fa-solid fa-magnifying-glass mr-6 size-6 text-[#89898B]"></i>
+                <i class="hidden lg:flex fa-solid fa-magnifying-glass mr-6 size-6 text-[#89898B]"></i>
                 <button class="btn btn-error text-white">Get Ticket</button>
             </div>
           </div>
 
-          <!-- banner area  -->
+          <!-- banner area start -->
 
           <!-- Carousel-1 -->
           <div class="carousel w-full">
@@ -95,22 +97,27 @@
             </div> 
           </div>
 
+          <div class="bg-common-color hidden lg:block p-8 w-1/4 rounded-2xl absolute bottom-14 right-52">
+            <h3 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h3>
+            <p class="font-medium text-base leading-7 text-white pt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+
     </header>
 
     <main class="container mx-auto">
       <!-- Professional Hockeys Club -->
       <section class="mt-20">
         <div>
-          <div class="mb-16 text-center border-y border-opacity-30 border-dashed py-10">
-            <h2 class="text-common-color text-4xl font-extrabold text-[#13131863
+          <div class="mb-16 text-center border-y border-opacity-30 border-dashed lg:py-10">
+            <h2 class="text-common-color text-2xl lg:text-4xl font-extrabold text-[#13131863
             ] pb-6">Professional Hockeys Club</h2>
             <p class="leading-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
           </div>
 
-          <div class="grid grid-cols-4 gap-5 p-5">
+          <div class="grid lg:grid-cols-4 gap-5 p-5">
             <!-- progreess-1  -->
             <div class="text-center">
-              <div class="radial-progress text-[#ff4240] " style="--value:87;" role="progressbar">87%</div>
+              <div class="radial-progress text-[#ff4240] " style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
               <div>
                 <h4 class="text-common-color text-xl font-semibold py-4">Prayer Facility</h4>
                 <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -119,23 +126,23 @@
             </div>
 
             <!-- progreess-2  -->
-            <div class="text-center">
-              <div class="radial-progress bg-white text-[#49d293] " style="--value:95;" role="progressbar">95%</div>
-              <h4 class="text-common-color text-xl font-semibold py-4">Prayer Facility</h4>
+            <div class="text-center py-10 lg:py-0">
+              <div class="radial-progress bg-white text-[#49d293] " style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
+              <h4 class="text-common-color text-xl font-semibold py-4">Experienced Coach</h4>
               <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
 
             <!-- progreess-3  -->
-            <div class="text-center">
-              <div class="radial-progress bg-white text-[#ffb546] " style="--value:90;" role="progressbar">90%</div>
-              <h4 class="text-common-color text-xl font-semibold py-4">Prayer Facility</h4>
+            <div class="text-center pb-10 lg:">
+              <div class="radial-progress bg-white text-[#ffb546] " style="--value:90;" role="progressbar"><span class="pb-0 text-black">90%</span></div>
+              <h4 class="text-common-color text-xl font-semibold py-4">Senior Player</h4>
               <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
 
             <!-- progreess-4  -->
             <div class="text-center">
-              <div class="radial-progress bg-white text-[#4c8df1] " style="--value:80;" role="progressbar">80%</div>
-              <h4 class="text-common-color text-xl font-semibold py-4">Prayer Facility</h4>
+              <div class="radial-progress bg-white text-[#4c8df1] " style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
+              <h4 class="text-common-color text-xl font-semibold py-4">Training Ground</h4>
               <p class="text-base font-normal text-[#13131863]">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
 
@@ -146,18 +153,18 @@
       <!-- Program Sections  -->
       <section class="mt-20">
         <div>
-          <div  class="text-center border-y border-opacity-30 border-dashed py-10">
-              <h2 class="text-common-color text-4xl font-extrabold text-[#13131863
+          <div  class="text-center border-y border-opacity-30 border-dashed lg:py-10">
+              <h2 class="text-common-color text-2xl lg:text-4xl font-extrabold text-[#13131863
               ] pb-6">Program Sections</h2>
               <p class="leading-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
 
-            <div>
-              <div class="flex justify-center items-center gap-5 my-10">
+            <div">
+              <div class="flex justify-center gap-5 my-8">
                   <div class="relative">
                   <div><img src="Images/2.png" alt=""></div>
 
-                  <div class="absolute top-20 left-5">
+                  <div class="absolute top-[-2rem] left-[6.25rem] lg:top-20 lg:left-5 ">
                     <h4 class="text-xl font-extrabold text-white">Junior Program</h4>
                     <p class="text-base font-medium leading-7 text-white py-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> 
                       enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
@@ -167,9 +174,9 @@
 
 
 
-                  <div class="relative">
+                  <div class="relative hidden lg:flex">
                   <div><img src="Images/3.png" alt=""> </div>
-                  <div class="absolute top-20 left-5">
+                  <div class="absolute lg:top-20 lg:left-5">
                     <h4 class="text-xl font-extrabold text-white">Junior Program</h4>
                     <p class="text-base font-medium leading-7 text-white py-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
                       enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
@@ -179,7 +186,7 @@
                   </div>
               </div>
           
-            <div class="relative flex justify-center">
+              <div class="relative justify-center lg:flex ">
             <div class="">
               <img src="Images/4.png" alt="">
             </div>
@@ -196,7 +203,7 @@
       </section>
 
       <!-- Our New Products  -->
-      <section class="mt-20">
+      <section class="mt-20 ">
         <div>
           <div  class="text-center border-y border-opacity-30 border-dashed py-10">
             <h2 class="text-common-color text-4xl font-extrabold text-[#13131863
@@ -206,7 +213,7 @@
 
           <!-- main card  -->
           <div class="mt-10">
-            <div class="grid grid-cols-2 gap-5">
+            <div class="grid lg:grid-cols-2 gap-5">
              <!-- card-1 start  -->
             <div>
               <div class="hero-content flex-col lg:flex-row p-6 border-opacity-30 rounded-2xl border-[1px] gap-10">
@@ -472,14 +479,14 @@
       <section class="mt-20">
         <div>
 
-          <div  class="text-center border-y border-opacity-30 border-dashed py-10">
-            <h2 class="text-common-color text-4xl font-extrabold text-[#13131863
+          <div  class="text-center border-y border-opacity-30 border-dashed lg:py-10">
+            <h2 class="text-common-color text-2xl lg:text-4xl font-extrabold text-[#13131863
             ] pb-6">Clients Question</h2>
             <p class="leading-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
           </div>
 
-          <div class="flex items-center mt-16 rounded-lg border-[1px] border-[#1313181A] py-10 justify-evenly">
-            <div><img src="Images/11.png" alt=""></div>
+          <div class="flex items-center mt-16 rounded-lg border-[1px] border-[#1313181A] py-10 justify-evenly flex-col lg:flex-row">
+            <div><img class="w-2/4 mx-auto lg:w-full mb-10" src="Images/11.png" alt=""></div>
 
             <!-- Accordion -->
             <div">
@@ -559,7 +566,7 @@
       <section class="my-20">
         <div>
           <div  class="text-center mb-14 border-y border-opacity-30 border-dashed py-10">
-            <h2 class="text-common-color text-4xl font-extrabold text-[#13131863
+            <h2 class="text-common-color text-2xl lg:text-4xl font-extrabold text-[#13131863
             ] pb-6">Get In Touch</h2>
             <p class="leading-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
           </div>
@@ -661,21 +668,22 @@
           <a class="link link-hover"><i class="fa-sharp fa-solid fa-envelope pr-3"></i>jobayer@support.com</a>
           <a class="link link-hover"><i class="fa-solid fa-phone pr-3"></i>01707607518</a>
         </nav> 
-        <nav>
-          <header class="footer-title">Company</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Leadership</a>
-          <a class="link link-hover">Careers</a>
-          <a class="link link-hover">News & Article</a>
-          <a class="link link-hover">Legal Notice</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">Support</header> 
-          <a class="link link-hover">Help Center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket Support</a>
-          <a class="link link-hover">Contact Us</a>
-        </nav>     
+          
+            <nav>
+              <header class="footer-title">Company</header> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Leadership</a>
+              <a class="link link-hover">Careers</a>
+              <a class="link link-hover">News & Article</a>
+              <a class="link link-hover">Legal Notice</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Support</header> 
+              <a class="link link-hover">Help Center</a>
+              <a class="link link-hover">FAQ</a>
+              <a class="link link-hover">Ticket Support</a>
+              <a class="link link-hover">Contact Us</a>
+            </nav>
         <nav>
           <header class="footer-title">Services</header> 
           <a class="link link-hover">Academy</a>
